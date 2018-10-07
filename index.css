@@ -1,0 +1,55 @@
+html, body {
+	background-color: #28292b;
+}
+
+#div1 {
+	background-color: rgba(227, 231, 237, .8);
+	width: 200px;
+	height: 200px;
+	margin: 100px auto 0 auto;
+	transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
+}
+
+#div2 {
+	background-color: rgba(227, 231, 237, .8);
+	width: 200px;
+	height: 200px;
+	margin: -220px auto 0 auto;
+	transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
+}
+
+#div3 {
+    display: flex;
+	background-color: #e9ef37;
+	width: 200px;
+	height: 200px;
+	margin: -220px auto 0 auto;
+	transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
+}
+
+
+#div3:hover {
+	background-color: #db2b6c
+}
+
+#div3 > div {
+    background-color: black;
+    padding: 10px;
+    height: 90px;
+}
+
+#div3:hover > div {
+    background-color: rgb(227, 231, 237);
+}
+
+#div31 {
+    margin: 40px 0px 40px 45px;
+}
+
+#div32 {
+    margin: 40px 20px 40px 20px;
+}
+
+#div33 {
+    margin: 40px 45px 40px 0px;
+}
